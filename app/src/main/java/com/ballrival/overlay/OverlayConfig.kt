@@ -7,5 +7,6 @@ data class OverlayConfig(
     var maxSizeDp: Int = 150,
     var minStayMs: Long = 3000,
     var maxStayMs: Long = 7000,
-    var opacity: Int = 70
+    var minOpacity: Int = 35,
+    var maxOpacity: Int = 100
 )
